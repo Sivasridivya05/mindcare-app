@@ -10,7 +10,9 @@ const httpServer = createServer(app);
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://mindcare-gdxc5lw4y-sivasridivya05s-projects.vercel.app'
+  'https://mindcare-gdxc5lw4y-sivasridivya05s-projects.vercel.app',
+  'https://mindcare-fqvh1crim-sivasridivya05s-projects.vercel.app',
+  'https://mindcare-app-umber.vercel.app'
 ];
 
 const io = new Server(httpServer, {
